@@ -1,5 +1,5 @@
 {
-    "name": "TFW ꭙ 𝕊𝕡𝕒𝕞˼🫧",
+    "name": "𝗩𝐄𝐑𝐎𝐍 𝕊𝕡𝕒𝕞˼🫧",
     "logo": "https://telegra.ph/file/c6abb12b29b471031ace1.jpg",
     "keywords": [
         "telegram",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/DevilDeva08/TFW_X_SPAM",
+    "repository": "https://github.com/coderx0805/spammer",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
