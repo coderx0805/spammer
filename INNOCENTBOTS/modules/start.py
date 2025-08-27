@@ -5,12 +5,12 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.url(" 𝐌ᴜsɪᴄ ", "https://t.me/SUKOONN_MUSIC_BOT"),
-        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/its_deva_heree")
+        Button.url("𓆩〬 🍹𝆺𝅥⃝🤍 ‌‌ ●𝐌ᴀ꯭ᴛ꯭ʟ꯭ᴀ꯭ʙ꯭ɪ꯭ 𝗗꯭ᴜ꯭ɴ꯭ɪ꯭ʏ꯭ᴀ꯭🤍𝆺꯭𝅥⎯꯭‌⎯꯭", "https://t.me/Matlabi_Duniyah"),
+        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/veron_deva")
     ],
     [
-        Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/TFW_NETWORK"),
-        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/TFW_BOTS_SUPPORT")
+        Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/Veron_bots"),
+        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/VERON_SUPPORTS")
     ],
 ]
 
