@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"🧨")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"😁🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝕊𝔼𝕍𝔸 𝕄𝔸𝕀 ℍ𝔸𝕁𝕀ℝ😁🫡 🅷🆄🅺🆄🅼 🅺🅰🆁🅾 🆂🅸🆁 🫡  [𝐌αƨтɛя](https://t.me/TFW_FOUNDER){mp} MS")
+        await jarvis.edit(f"😁𝗩𝐄𝐑𝐎𝐍 𝗦𝐏𝐀𝐌 𝗕𝐎𝐓  𝟮𝟰/𝟳  𝐎𝐍  𝗗𝐔𝐓𝐘 🅶🅸🆅🅴 🅼🅴  🅾️🆁🅳🅴🆁 🆂🅸🆁  🫡  [𝐌αƨтɛя](https://t.me/TFW_FOUNDER){mp} MS")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`🖐𝓢𝓣𝓞𝓟𝓘𝓝𝓖 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓...`")
+        await e.reply(f"`🖐𝓢𝓣𝓞𝓟𝓘𝓝𝓖 𝗩𝐄𝐑𝐎𝐍  𝕊ℙ𝔸𝕄 乃ⓞ𝐓...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» A҉D҉D҉I҉N҉G҉ 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 乃ⓞ𝐓 sᴜᴅᴏ.... ")
+        ok = await event.reply(f"» A҉D҉D҉I҉N҉G҉  𝗩𝐄𝐑𝐎𝐍  𝕊ℙ𝔸𝕄 乃ⓞ𝐓 乃ⓞ𝐓 sᴜᴅᴏ.... ")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"▄︻┻ 𝙏𝙃𝙄𝙎 𝙐𝙎𝙀𝙍 𝙄𝙎 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝘼 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑 ︻┳═─ !!")
+            await ok.edit(f"▄︻┻ 𝙏𝙃𝙄𝙎 𝙐𝙎𝙀𝙍 𝙄𝙎 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝘼  𝗩𝐄𝐑𝐎𝐍  𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑 ︻┳═─ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
@@ -185,4 +185,4 @@ async def show_sudo_users(event):
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥  𝗩𝐄𝐑𝐎𝐍  𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗢𝗪𝗡𝗘𝗥.")
